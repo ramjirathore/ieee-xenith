@@ -94,7 +94,7 @@ body {
       text-align: center;
       border-radius: 4px;
       padding: 5px;
-      height: auto;
+      height: 352px;
       display: inline-block;
       border: 1px solid #708090;
 
@@ -104,6 +104,7 @@ body {
     }
     .evnt-fluid{
       width: 100%;
+      height: 339px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -126,7 +127,12 @@ body {
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  height: 40rem; }
+  height: 35rem; }
+@media(max-width: 400px) {
+  .event-card {
+    height: 44rem;
+  }
+}
   .event-card__side {
     /* color: white; */
     font-size: 2rem;
@@ -169,7 +175,8 @@ body {
 }
     .event-card.ready .event-card__side--back{
       flex-direction: column;
-      justify-content: flex-start;
+      justify-content: space-around;
+      height: 352px;
     }
     .event-card.ready .event-card__side--back h4{
       padding: 4rem;
@@ -238,6 +245,11 @@ body {
       text-align: center !important;
       padding: 4rem;
     }
+    @media(max-width: 400px) {
+      .event-card__details--1 {
+        font-size: 2rem;
+      }       
+    }
 
   .event-card__details-span {
     -webkit-box-decoration-break: clone;
@@ -252,6 +264,7 @@ body {
 	display: flex;
   width: 80%;
   justify-content: space-around;
+  margin-bottom: 2rem;
 }
 
 .event-card__reg-button > a {
@@ -271,7 +284,8 @@ body {
 
 .btn:hover {
 	transform: translateY(-.3rem);
-	box-shadow: 0 1.0rem 2.0rem rgba(0,0,0,.2);
+  box-shadow: 0 1.0rem 2.0rem rgba(0,0,0,.2);
+  color: #a5ffd1;
 }
 
 .btn:active{
