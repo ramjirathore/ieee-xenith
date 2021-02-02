@@ -109,13 +109,13 @@ body {
     }
     .evnt-fluid{
       width: 100%;
-      height: 339px;
+      height: 3px;
       display: flex;
       justify-content: center;
       align-items: center;
     }
     @media(min-width: 1750px) {
-      .evnts-poster {
+      .evnts-fluid {
         height: 400px;
       }
     }
