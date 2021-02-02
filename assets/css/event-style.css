@@ -104,7 +104,7 @@ body {
     }
     @media(min-width: 1750px) {
       .evnts-poster {
-        height: 372px;
+        height: 400px;
       }
     }
     .evnt-fluid{
@@ -116,7 +116,7 @@ body {
     }
     @media(min-width: 1750px) {
       .evnts-poster {
-        height: 359px;
+        height: 400px;
       }
     }
     /* .evnts-posterr {
@@ -190,7 +190,7 @@ body {
     }
     @media(min-width: 1750px) {
       .event-card.ready .event-card__side--back{
-        height: 372px;
+        height: 400px;
       }
     }
     .event-card.ready .event-card__side--back h4{
