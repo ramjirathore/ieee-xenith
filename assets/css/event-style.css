@@ -138,7 +138,7 @@ body {
   -moz-perspective: 150rem;
   position: relative;
   height: 35rem; }
-@media(max-width: 400px) {
+@media(max-width: 900px) {
   .event-card {
     height: 44rem;
   }
